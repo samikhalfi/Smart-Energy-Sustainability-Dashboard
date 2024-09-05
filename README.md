@@ -26,7 +26,7 @@ Developed by Sami Khalfi, a data science student, this project showcases various
 To run this project locally:
 
 1. Clone the repository:
-   ```bash
+   ```
    git clone https://github.com/samikhalfi/smart-energy-sustainability-dashboard.git
    ```
 2-Navigate to the project directory:
@@ -41,3 +41,11 @@ To run this project locally:
    ```
    streamlit run main.py
    ```
+## Contribution
+
+Feel free to contribute to the project by submitting issues or pull requests. Your feedback and improvements are welcome!
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
