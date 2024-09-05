@@ -12,3 +12,4 @@ bcrypt
 pyyaml
 numpy
 matplotlib
+scikit-learn
