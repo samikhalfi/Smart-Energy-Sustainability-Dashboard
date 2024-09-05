@@ -70,7 +70,7 @@ def chatbot_page():
             if api_key:
                 save_api_key(api_key)
                 st.success("API key saved successfully.")
-                st.experimental_rerun()
+                st.rerun()
             else:
                 st.error("Please enter a valid API key.")
 with open('css/styles.css') as f:
