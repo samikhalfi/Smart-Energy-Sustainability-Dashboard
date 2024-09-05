@@ -1,0 +1,88 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Styling for the sidebar navigation */
+.sidebar {
+    background-color: #fe735d;
+    border-radius: 15px;
+    border: 2px solid white;
+    padding: 15px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the title and radio buttons */
+.sidebar h2 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sidebar .stRadio > label {
+    color: white;
+    font-size: 1.2em;
+}
+
+.sidebar .stRadio > div > div {
+    background-color: #fe735d;
+    border-radius: 10px;
+    margin: 5px 0;
+    padding: 8px;
+}
+
+.sidebar .stRadio > div > div:hover {
+    background-color: #ff866e; /* Lighter shade on hover */
+    cursor: pointer;
+}
+
+/* Ensure the main content doesn't overlap with the sidebar */
+.main-content {
+    margin-left: 220px;
+}
+
+button {
+    background-color: #fe735d;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: #fe735d;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"], input[type="password"] {
+    padding: 12px;
+    border-radius: 5px;
+    border: 2px solid #fe735d;
+    margin: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: white;
+    outline: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #fe735d;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
