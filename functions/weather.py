@@ -1,6 +1,6 @@
 import streamlit as st
 import streamlit_shadcn_ui as ui
-from api_calls import get_lat_lon, get_weather_data
+from utils.api_calls import get_lat_lon, get_weather_data
 
 def display_weather_data():
     st.write("## Weather 🌦️")
