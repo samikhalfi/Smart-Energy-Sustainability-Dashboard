@@ -9,7 +9,7 @@ st.set_page_config(
 
 from authentication.login import login
 from authentication.register import register
-from dashboard import dashboard
+from dashboard.dashboard import dashboard
 
 def main():
 
