@@ -9,6 +9,6 @@ prophet
 xgboost
 catboost
 bcrypt
-yaml
+pyyaml
 numpy
 matplotlib
