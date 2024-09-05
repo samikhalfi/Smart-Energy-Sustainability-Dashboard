@@ -4,7 +4,7 @@ import pickle
 
 def get_hashed_password(username):
     try:
-        with open('hashed_passwords.pkl', 'rb') as file:
+        with open('authentication/hashed_passwords.pkl', 'rb') as file:
             hashed_passwords = pickle.load(file)
         return hashed_passwords.get(username)
     except FileNotFoundError:
