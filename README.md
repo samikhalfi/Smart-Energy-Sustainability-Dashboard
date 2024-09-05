@@ -17,7 +17,7 @@ Developed by Sami Khalfi, a data science student, this project showcases various
 
 ## Links
 
-- [Demo on Streamlit Sharing](Your_Streamlit_App_URL)
+- [Demo on Streamlit Sharing](https://smart-energy-sustainability-dashboard-tziplgtfsdkba84krvrxxt.streamlit.app/)
 - [LinkedIn](https://www.linkedin.com/in/sami-khalfi-355098290/)
 - [GitHub Repository](https://github.com/samikhalfi/smart-energy-sustainability-dashboard)
 
