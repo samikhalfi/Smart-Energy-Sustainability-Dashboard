@@ -38,7 +38,7 @@ def register():
                 st.error("Registration failed.")
         else:
             st.error("Please provide both username and password")
-with open('styles.css') as f:
+with open('css/styles.css') as f:
     css = f.read()
 
 st.markdown(f"<style>{css}</style>", unsafe_allow_html=True)
