@@ -4,7 +4,7 @@ import pickle
 
 def store_user_credentials(username, hashed_password):
     try:
-        with open('hashed_passwords.pkl', 'rb') as file:
+        with open('authentication/hashed_passwords.pkl', 'rb') as file:
             hashed_passwords = pickle.load(file)
     except FileNotFoundError:
         hashed_passwords = {}
@@ -15,7 +15,7 @@ def store_user_credentials(username, hashed_password):
 
     hashed_passwords[username] = hashed_password
 
-    with open('hashed_passwords.pkl', 'wb') as file:
+    with open('authentication/hashed_passwords.pkl', 'wb') as file:
         pickle.dump(hashed_passwords, file)
     
     return True
