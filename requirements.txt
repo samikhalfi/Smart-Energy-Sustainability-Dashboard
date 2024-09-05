@@ -8,7 +8,6 @@ requests
 prophet
 xgboost
 catboost
-pickle
 bcrypt
 yaml
 numpy
